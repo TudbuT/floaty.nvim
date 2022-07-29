@@ -28,5 +28,5 @@ function! OpenFloatingBuffer(x, y, width, height)
     return win
 endfunction
 
-command FS :call OpenFloatingBuffer(-2, -3, 50,30)
+command FS :call OpenFloatingBuffer(-2, -3, 50,20)
 
